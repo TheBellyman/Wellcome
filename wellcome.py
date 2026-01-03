@@ -24,5 +24,6 @@ def main():
         config = json.load(f)
     print("Hello", config.get("Name"))
 
+# test comment
 if __name__ == "__main__":
    WellcomeApp().run()
