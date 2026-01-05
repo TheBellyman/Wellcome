@@ -6,7 +6,7 @@ from textual.containers import Vertical
 class WellcomeApp(App):
     CSS = """
     Screen {
-        background: black;
+        background: green;
         color: green;
     }
     """
@@ -24,6 +24,6 @@ def main():
         config = json.load(f)
     print("Hello", config.get("Name"))
 
-# test comment
+# small comment dont have time today
 if __name__ == "__main__":
    WellcomeApp().run()
